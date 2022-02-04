@@ -1,0 +1,28 @@
+{
+  "name": "ndut-i18n",
+  "version": "0.6.0",
+  "description": "I18n for Ndut Framework",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardhi/ndut-i18n.git"
+  },
+  "keywords": [
+    "ndut",
+    "i18n",
+    "internationalization",
+    "i18next",
+    "fastify"
+  ],
+  "author": "Ardhi Lukianto <ardhi@lukianto.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardhi/ndut-i18n/issues"
+  },
+  "homepage": "https://github.com/ardhi/ndut-i18n#readme",
+  "dependencies": {
+    "i18next": "^21.6.10"
+  }
+}

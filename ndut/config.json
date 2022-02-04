@@ -1,0 +1,6 @@
+{
+  "alias": "i18n",
+  "lang": "en-US",
+  "fallbackLang": "en-US",
+  "supportedLangs": ["id", "en-US"]
+}
