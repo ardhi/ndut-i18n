@@ -5,6 +5,7 @@ module.exports = async function (options) {
   const { _, getConfig, iterateNduts } = this.ndut.helper
   const config = getConfig()
   const allAliases = Object.keys(await iterateNduts(() => {}, { resultKey: 'alias' }))
+  if (options.lang !== 'detect') options.detectFromParams = false
   const opts = {
     debug: config.debug,
     fallbackLng: options.fallbackLang,
@@ -13,7 +14,7 @@ module.exports = async function (options) {
     ns: allAliases,
     defaultNS: 'i18n'
   }
-  if (options.lang !== 'auto') opts.lng = options.lang
+  if (options.lang !== 'detect') opts.lng = options.lang
   await i18next.init(opts)
   const exported = {}
   _.each(['t', 'exists', 'getFixedT', 'changeLanguage'], m => {

@@ -1,6 +1,8 @@
 {
   "alias": "i18n",
-  "lang": "en-US",
+  "lang": "detect",
   "fallbackLang": "en-US",
-  "supportedLangs": ["id", "en-US"]
+  "supportedLangs": ["id", "en-US"],
+  "detectFromQsKey": "lang",
+  "detectFromParams": false
 }
