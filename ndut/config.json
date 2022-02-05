@@ -4,5 +4,5 @@
   "fallbackLang": "en-US",
   "supportedLangs": ["id", "en-US"],
   "detectFromQsKey": "lang",
-  "detectFromParams": false
+  "detectFromParams": true
 }
