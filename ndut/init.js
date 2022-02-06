@@ -7,7 +7,7 @@ module.exports = async function (options) {
   const allAliases = Object.keys(await iterateNduts(() => {}, { resultKey: 'alias' }))
   if (options.lang !== 'detect') options.detectFromParams = false
   const opts = {
-    debug: config.debug,
+    // debug: config.debug, // too noisy if enabled
     fallbackLng: options.fallbackLang,
     // supportedLngs: ['en-US'],  // doesn't work .. ?!
     nonExplicitSupportedLngs: true,
