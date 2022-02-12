@@ -3,6 +3,5 @@
   "lang": "detect",
   "fallbackLang": "en-US",
   "supportedLangs": ["id", "en-US"],
-  "detectFromQsKey": "lang",
-  "detectFromParams": true
+  "detectFromQsKey": "lang"
 }
